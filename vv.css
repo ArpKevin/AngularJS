@@ -1,0 +1,7 @@
+:root{
+    --kiskutya: red;
+}
+
+body{
+    background-color: var(--kiskutya);
+}

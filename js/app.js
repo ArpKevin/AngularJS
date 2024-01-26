@@ -1,1 +1,1 @@
-let app = angular.module("AngularStart", []);
+let app = angular.module('AngularStart', []);

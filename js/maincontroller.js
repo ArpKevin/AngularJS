@@ -1,10 +1,11 @@
-app.controller("MainController", function($scope){
-    $scope.szoveg = "angular valtozo";
+app.controller('MainController', function($scope){
+//angular változó létrehozása
+$scope.szoveg = "Így működnek az Angularban a változók!";
 
-    $scope.emberek = [
-        {nev: "JohnPork", eletkor: "130", harem: ["bridget", "agnes"]},
-        {nev: "Lucifer", eletkor: "1000", harem: ["detective", "milliok"]},
-        {nev: "Ragnar", eletkor: "40", harem: ["lagherta", "Aslaug"]},
-        {nev: "Bulgasal", eletkor: "2000", harem: ["Min Si-ho"]}
-    ]
+$scope.emberek = [
+    {nev: 'Wick', eletkor: 20, csajok: ['Bridget', 'Agnes']},
+    {nev: 'Lucifer', eletkor: 10000, csajok: ['Detective', 'Milliók']},
+    {nev: 'Ragnar', eletkor: 40, csajok: ['lagherta', 'Aslaug hercegnő']},
+    {nev: 'Bulgasal', eletkor: 2000, csajok: ['Min Si-ho']}
+];
 });
